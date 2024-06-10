@@ -127,3 +127,11 @@
 
 })(jQuery);
 
+const videoModal = document.getElementById('videoModal');
+    const videoPlayer = document.getElementById('videoPlayer');
+
+    videoModal.addEventListener('hide.bs.modal', () => {
+        videoPlayer.pause();
+        videoPlayer.currentTime = 0;
+    });
+
