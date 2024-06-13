@@ -790,7 +790,7 @@
 }
 
 .team .team-item:hover .team-content {
-    background: var(--bs-primary);
+    background: #f594a8;
     color: var(--bs-white);
 }
 /*** Team End ***/
